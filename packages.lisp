@@ -1,3 +1,4 @@
 (defpackage #:openclscad
   (:use #:cl)
-  (:export #:render #:box #:translate))
+  (:shadow cl:union)
+  (:export #:render #:box #:translate #:union #:cylinder))
